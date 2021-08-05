@@ -1,0 +1,51 @@
+.contenedor{
+    display:flex;
+    flex-direction:row;
+    flex-flow: row wrap;
+    flex-wrap:wrap;
+    justify-content:space-around;
+    }
+
+.cajaimpar{
+    width:30%;
+    height: 280px;
+    background: blue;
+    margin: 15px;
+    text-align: center;
+    color: white;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border: black 1px solid; margin: 15px;
+    }
+
+.cajapar{
+    width:30%;
+    background: green;
+    margin: 15px;
+    align-content: center;
+    text-align: center;
+    color: white;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border: black 1px solid; margin: 15px;
+    }   
+
+.bordes_redondos {
+        border-radius: 10px;
+    }
+
+.aside {
+        background: lightgray;
+        text-align: center;
+        height: 70px;
+        padding-top: 10px;
+        font-family: 'Raleway';
+      }
+
+.footer {
+        background: lightgreen;
+        text-align: center;
+        height: 70px;
+        padding-top: 10px;
+        font-family: 'Raleway';
+      }
